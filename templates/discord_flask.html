@@ -1,0 +1,164 @@
+<!--
+    Thank to DISCORD.IO !
+    The template, html, css, js and svg pages are from DISCORD.IO.
+
+    Variables (name: default):
+        icon: https://discord.io/static/img/discord_io_icon.ico
+        title: DISCORD.IO | Luzog78
+        mainButton: DISCORD.IO
+        addButton: CREATE YOUR OWN
+        discordButton: Discord Official
+        discordLink: https://discord.com/login
+        imageLink: https://cdn.discordapp.com/icons/837956601343901697/79c82f30d31cfaa37634b1fa29a14d3a.png?size=256
+        name: Luzog78
+        message: You're being redirected
+        invite: https://discord.gg/Xy4j4YV4dE
+        cooldownIn200For1Sec: 2000 (10sec)
+        message2:
+        blink1-3:
+-->
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <!-- Open Graph Tags -->
+    <meta property="og:url" content="" />
+    <meta name="theme-color" content="#4a86e8">
+
+    <meta property="og:title" content="{{name}}" />
+    <meta property="og:image" content="{{imageLink}}" />
+    <meta property="og:description" content="­
+            Personal Discord Invites" />
+    <meta property="og:site_name" content="Powered by DISCORD.IO !! It's from them site !">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{icon}}">
+    <!-- Normalize Css -->
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="static/css/main.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="static/css/style.css?@2021-06-10">
+    <!-- Modernizr Js -->
+    <script src="static/js/modernizr-3.6.0.min.js"></script>
+    <!-- Swal2 Js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+
+    {% if cooldownIn200For1Sec >= 0 %}
+    <script type="text/javascript">var count = 3;var countdown = setInterval(function(){$("a.redirect").attr("href","#pleasewait").html(count);if (count < 1) {clearInterval(countdown);window.location="{{invite}}";}count--;}, {{cooldownIn200For1Sec}});</script>
+    {% endif %}
+    <script async src='static/cdn-cgi/challenge-platform/h/b/scripts/invisible.js'></script></head>
+
+<body id="splash">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- ScrollUp Start Here -->
+    <a href="#wrapper" data-type="section-switch" class="scrollup">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+    <!-- ScrollUp End Here -->
+    <div id="wrapper" class="wrapper">
+        <!-- Header Area Start Here -->
+        <header id="site-header" class="header-one">
+                <div class="header-main header">
+                    <div class="container-fluid">
+                        <div class="mob-menu-open toggle-menu">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-12">
+                                <div class="site-logo">
+                                    <a href="" class="main-logo">{{mainButton}}</a>
+                                    <a href="" class="sticky-logo main-logo">{{mainButton}}</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 d-lg-flex justify-content-end possition-static">
+                                <div class="nav-action-elements">
+                                    <nav class="site-nav">
+                                        <ul class="site-menu">
+                                                    <li>
+                                                        <a href="{{discordLink}}">
+                                                        <button type="button" class="login-btn" onclick=""> <!-- window.location.href='discord.gg/login' -->
+                                                        <i class="fab fa-discord"></i>{{discordButton}}
+                                                        </button>
+                                                        </a>
+                                                    </li>
+                                                <li>
+                                                    <a href="{{invite}}" class="ghost-btn"><i class="fas fa-plus"></i>{{addButton}}</a>
+                                                </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>        <!-- Header Area End Here -->
+        <!-- Main Banner Area Start Here -->
+        <section class="main-banner-wrap-layout1 bg-common overlay-dark-10 bg--gradient-top-30" style="padding: 25rem 0rem 25rem; height: 100vh; background: linear-gradient(315deg, #bc2bff, #7249fb); background-size: 200% 400%;">
+            <div class="container">
+
+                <div class="main-banner-box-layout1" style="padding: 8% 0;">
+                    <div class="row">
+                    <img class="img-fluid animated-figure animated-figure-splash-custom-by-luzog" src="static/img/Asset_10.svg" alt="blob-3">
+                        <div class="single-item col-lg-4 col-md-6 col-12">
+                            <img src='{{imageLink}}' alt=" imageLink" class="animated-figure-splash-icon-custom-by-luzog splash-logo">
+                        </div>
+                        <div class="single-item col-lg-8 col-md-6 col-12">
+                            <h1 class="item-title">{{name}}</h1>
+
+
+                            <p class="item-sub-title splash-dot-dot-dot">{{message}} <span>.</span> <span>.</span> <span>.</span></p>
+                            <p class="item-sub-title splash-dot-dot-dot">{{message2}}<span>{{blink1}}</span><span>{{blink2}}</span><span>{{blink3}}</span>{{message3}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ocean">
+                <div class="wave", style="background: url('static/img/wave-white.svg') repeat-x;"></div>
+                <div class="wave", style="background: url('static/img/wave-white.svg') repeat-x;"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal End-->
+    <!-- Jquery Js -->
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="static/js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- Plugins Js -->
+    <script src="static/js/plugins.js"></script>
+    <!-- Imagesloaded Js -->
+    <script src="static/js/imagesloaded.pkgd.min.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="static/js/owl.carousel.min.js"></script>
+    <!-- Isotope Js -->
+    <script src="static/js/isotope.pkgd.min.js"></script>
+    <!-- Silk Cauosel Js -->
+    <script src="static/js/slick.min.js"></script>
+    <!-- Parallaxie Js -->
+    <script src="static/js/parallaxie.js"></script>
+    <!-- Custom Js -->
+    <script src="static/js/main.js"></script>
+
+    <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6bdfcecf8f43eda7',m:'GEv1a7t1ouipnXVXTxjNFojV9vVtB6xyiXdsJjacRck-1639572733-0-Ae2fQUSVWaw6Ym5BbR+CR3Wc50a1bhXB5ZECE5/nTbvn1UvCBH8flCiSF+mRATDqSZJfNJYkGVyFOUOvlXyOZBlmPVKWqAD83QHAlM1jOEryxA5VFTAOlBvritSuW23cbw==',s:[0xff6dbb4cf9,0x1f6f56e6fe],u:'static/cdn-cgi/challenge-platform/h/b'}})();</script></body>
+
+</html>

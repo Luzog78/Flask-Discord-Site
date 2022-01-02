@@ -1,0 +1,28 @@
+{
+  "site": {
+    "port": 48830,
+    "page": {
+      "title": "DLink",
+      "home": "Dis-Link"
+    },
+    "content": {
+      "variable": ["%NAME%", "%LINK%", "%COOLDOWN%", "%VISITS%"],
+      "name": "Luzog78",
+      "image": "https://cdn.discordapp.com/icons/837956601343901697/79c82f30d31cfaa37634b1fa29a14d3a.png?size=256",
+      "main_message": "Vous allez \u00eatre redirig\u00e9",
+      "sub_start_message": "",
+      "blink1": "Sinon,",
+      "blink2": " Cliquez le ",
+      "blink3": "+ Rejoindre",
+      "sub_end_messages": ""
+    },
+    "redirection": {
+      "link": "http://direct-discord.luzog.xyz/",
+      "cooldown_in_200_for_1_sec": 1000
+    }
+  },
+  "data": {
+    "visits_count": 0,
+    "visits": {}
+  }
+}
