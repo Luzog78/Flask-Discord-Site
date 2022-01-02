@@ -26,6 +26,8 @@ def import_config():
                 content = default.read()
                 file.write(str(content))
         config = default_config.copy()
+    default_config.pop("IMPORTANT", None)
+    config.pop("IMPORTANT", None)
 
 
 def conf(path: str, _type=None, **replace):

@@ -1,17 +1,18 @@
-/*
- * 
- * ############################
- * ## DO NOT TOUCH OR MODIFY ##
- * ##      ANYTHING !!!      ##
- * ############################
- * 
- * That's the default and initial
- *  launch configuration of the
- *  Flask Server.
- * You have to ignore this file.
- * 
- */
 {
+  "IMPORTANT" : [
+    "                                  ",
+    "  ############################    ",
+    "  ## DO NOT TOUCH OR MODIFY ##    ",
+    "  ##      ANYTHING !!!      ##    ",
+    "  ############################    ",
+    "                                  ",
+    "  That's the default and initial  ",
+    "   launch configuration of the    ",
+    "   Flask Server.                  ",
+    "  You have to ignore this file.   ",
+    "                                  "
+  ],
+
   "site": {
     "port": 48830,
     "page": {
