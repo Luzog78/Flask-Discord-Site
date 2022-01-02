@@ -10,6 +10,8 @@
     "   launch configuration of the    ",
     "   Flask Server.                  ",
     "  You have to ignore this file.   ",
+    "  Except, obviously, if you know  ",
+    "   exactly what you are doing.    ",
     "                                  "
   ],
 
@@ -20,7 +22,6 @@
       "home": "Dis-Link"
     },
     "content": {
-      "variable": ["%NAME%", "%LINK%", "%COOLDOWN%", "%VISITS%"],
       "name": "Luzog78",
       "image": "https://cdn.discordapp.com/icons/837956601343901697/79c82f30d31cfaa37634b1fa29a14d3a.png?size=256",
       "main_message": "Vous allez \u00eatre redirig\u00e9",
